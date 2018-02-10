@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@drawable/fries1"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.yam35.testdaniel.MainActivity">
+
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="הכנס טקסט"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="write"
+        android:textColor="#ffff00 "
+        android:textSize="20dp"
+        android:text="לחץ כאן לכתיבה בזיכרון " />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:textSize="50dp"
+
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="read"
+        android:textColor="#ffff00 "
+        android:textSize="20dp"
+        android:text="לחץ כאן לקריאה מהזיכרון" />
+</LinearLayout>
